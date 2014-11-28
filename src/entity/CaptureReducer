@@ -1,0 +1,20 @@
+package entity;
+
+/**
+ *
+ * @author Nikolaj
+ */
+public class CaptureReducer extends Item{
+
+    private int reduceValue;
+    public int getReduceValue()
+    {
+        return reduceValue;
+    }
+    
+    public CaptureReducer(String itemName, int itemValue , int reduceValue) {
+        super(itemName, itemValue);
+        this.reduceValue = reduceValue;
+    }
+    
+}
